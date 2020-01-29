@@ -58,7 +58,7 @@ dataset = pd.DataFrame(data)
 
 ## 获取和下载csv表格数据
 
-这种方法可以直接下载csv数据（确实是csv数据），该数据为utf无bom编码，对于Windows的excel来说，需要转换成utf含bom的编码方式。转换方法可以使用 notepad++完成。比如要获取2020年1月25日15时的各个城市粒度的病例数据：
+这种方法可以直接下载csv数据（确实是csv数据），该数据为utf无bom编码，对于Windows的excel来说，需要转换成utf含bom的编码方式。转换方法可以使用 notepad++完成（现在不需要了:）。比如要获取2020年1月25日15时的各个城市粒度的病例数据：
 
 - 城市粒度：`http://69.171.70.18:5000/download/city_level_2020-01-25T15.csv`下载得到
 - 省粒度：`http://69.171.70.18:5000/download/province_level_2020-01-25T15.csv`
