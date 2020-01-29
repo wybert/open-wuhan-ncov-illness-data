@@ -42,7 +42,7 @@ dataset = pd.DataFrame(data)
 ```
 
 
-# 获取geojson格式的数据
+## 获取geojson格式的数据
 
 该数据是由病例数据经过百度地理编码得到，是地理编码后得到的坐标点的数据。获取地理数据的方式通过请求相应的URL得到，比如要访问2020-01-25日16时的点数据，可以通过下面的链接访问：
 
@@ -73,9 +73,11 @@ dataset = pd.DataFrame(data)
 - 国家粒度：`http://69.171.70.18:5000/download/point/country_level_2020-01-25T15.geojson`
 
 
+# R语言接口
 
+[参考](https://github.com/microly/data2019ncov)
 
-# 使用该数据集完成分析
+# 使用python完成分析
 
 分析案例参考：[这里](https://gitlab.com/wybert/open-2019-ncov/blob/master/disasterMap.ipynb)
 
@@ -94,6 +96,10 @@ dataset = pd.DataFrame(data)
 # To do
 
 - 构建github pages页面，发布可以下载数据的页面
+
+# 使用该项目的项目
+
+1. [武汉肺炎（2019-nCoV）数据的R语言接口](https://github.com/microly/data2019ncov)
 
 # 引用
 
