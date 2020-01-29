@@ -1,6 +1,6 @@
 # open-2019-ncov
 
-这个项目有关有关 `武汉肺炎` `2019-ncov`的相关病例数据的分享。源代码在[gitlab](https://gitlab.com/wybert/open-2019-ncov)。发布页[这里](https://wybert.github.io/open-wuhan-ncov-illness-data/)
+这个项目有关有关 `武汉肺炎` `2019-ncov`的相关病例数据的分享。从[gitlab](https://gitlab.com/wybert/open-2019-ncov)迁移过来~。发布页[这里](https://wybert.github.io/open-wuhan-ncov-illness-data/)
 
 
 
