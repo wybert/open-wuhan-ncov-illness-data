@@ -1,8 +1,6 @@
-# open-wuhan-ncov-illness-data
-
 # open-2019-ncov
 
-这个项目有关有关 `武汉肺炎` `2019-ncov`的相关病例数据的分享。
+这个项目有关有关 `武汉肺炎` `2019-ncov`的相关病例数据的分享。源代码在[gitlab](https://gitlab.com/wybert/open-2019-ncov)。发布页[这里](https://wybert.github.io/open-wuhan-ncov-illness-data/)
 
 
 
@@ -13,6 +11,8 @@
 - 时间的分辨率：1小时
 - 空间分辨率：城市、省份、国家
 - 起止时间：对于城市和省粒度的数据从2020-1-25 15时到疫情结束。对于国家粒度的数据从2020-1-27 10时到疫情结束
+- 数据缺失 2020-1-28 00到2020-1-28 12(由于程序中断，数据缺失这部分数据缺失)
+- 数据缺失 对于2020-1-27 10到2020-1-29 19缺少部分省份的数据
 
 # 数据下载和访问方法
 
@@ -105,6 +105,7 @@ Xiaokang Fu, open-2019-ncov, Wuhan University, https://gitlab.com/wybert/open-20
 - 本项目病例数据来源为：[丁香园·丁香医生](https://3g.dxy.cn/newh5/view/pneumonia?from=timeline&isappinstalled=0)
 - 本项目地理编码使用[百度地理编码API完成](http://lbsyun.baidu.com/index.php?title=lbscloud/api/cloudrgc)
 - 本项目地理面数据和行政边界来自于github:[china-geojson](https://github.com/yezongyang/china-geojson)
+- 对于政治敏感的行政边界地图可以使用[高德提供的数据](http://datav.aliyun.com/tools/atlas)。
 
 本人只负责整理数据，不承担任何法律责任。如有侵权请在微博私信[@Mayday大象](https://weibo.com/6324245960/profile) 
 
